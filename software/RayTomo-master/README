@@ -1,3 +1,7 @@
+for group(trad) and phase(mtm) vel tomography script introduction, please see trad/README.md
+
+for checkboard test script introduction, please see cbt3.2/README.md
+
 tomo_sp_cu_s V1.1 package directories contents:
 
 bin    - 64-bit binary module for RHEL 5.5 or later,
