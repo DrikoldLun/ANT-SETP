@@ -1,0 +1,124 @@
+ Setting defaults.....
+tomo >  		TOMO SETTINGS:
+ DATA   CHARACTERISTICS:
+   0.) Model are given?..................(toggle)...           0
+   1.) Weights are given?................(toggle)...           0
+   2.) Number of paths < ...........................     1300000
+   3.) Selection of paths ...............(toggle)...           0
+ PLOT CHARACTERISTICS:
+  4.) Path density & azim. coverage ?...(toggle)...           0
+  5.) Limits of the map (latitudes,step) ............    -20.00   89.00    1.00
+  6.) Limits of the map (longitudes,step) ...........      0.00  359.00    1.00
+  7.) Map of deviations in %?...........(toggle)...           1
+  8.) Rejecting too strange data?.......(toggle)...           0
+  9.) Rejecting data by wavelength?.....(toggle)...           0
+ 10.) Step,X-zone,R/L,G/P,Size of cells:iso,anis.....   0.250 2.000 R G  2.000 7.000
+ 11.) anisotropy: 0-no,1-2psi,2-2&4psi,3-4psi......           0
+ 12.) 0PSI: alpha1, alpha2, sigma1, sigma2...........  1400.000  1.000  200.000  200.000
+ 13.) 2PSI: alpha1,         sigma1, sigma2...........   800.000         500.000  500.000
+ 14.) 4PSI: alpha1,         sigma1, sigma2...........  1200.000         500.000  500.000
+ 15.) 0PSI-prec, 2PSI-prec, 2&4PSI prec..............       8.0     8.0     8.0
+ 16.) Contour file name..............................  contour.ctr                                                                                                                                                     
+ 17.) Model file name................................  model_map.ctr                                                                                                                                                   
+ 18.) Model name file for slowness determination ....  PREM.MODEL                                                                                                                                                      
+ 19.) Output residuals?.................(toggle)...           0
+ 20.) Covariance matrix?................(toggle)...           0
+ 21.) Apply geogr --> geoc for input....(toggle)...           1
+ 22.) Apply geoc --> geogr for output...(toggle)...           1
+ 23.) Anisotropy pole: lat, lon......................     90.00    0.00
+ 24.) Apply Fresnel zones?..............(toggle)...           0
+ 25.) Produce resolution analysis map?..(toggle)...           0
+ 26.) Use new input data format R1/R2?..(toggle)...           0
+ 27.) Use RAY TRACER mode?..............(toggle)...           0
+ 28.) Make response map for some points?(toggle)...           0
+ 29.) Path density wts for iso and aniso parts..... -0.147129998     -0.147129998    
+Choice number (v to review menu; r,q, or x to return;go to run):Choice number (v to review menu; r,q, or x to return;go to run):Choice number (v to review menu; r,q, or x to return;go to run): enter limits for latitudes and increment
+Choice number (v to review menu; r,q, or x to return;go to run): enter limits for longitudes and increment
+Choice number (v to review menu; r,q, or x to return;go to run): enter threshold in % for rejection
+Choice number (v to review menu; r,q, or x to return;go to run): enter number of wavelength for rejection
+Choice number (v to review menu; r,q, or x to return;go to run): Step of integration
+ X-zone
+ enter type of wave (Rayleigh, Love): R or L)
+ enter type of velocity (Group, Phase): G or P)
+ enter length of main cell (degree)
+ enter length of anisotpopy cell (degree)
+Choice number (v to review menu; r,q, or x to return;go to run): enter type of anisotropy: 0 - no, 1 - 2psi, 2 - 2&4psi
+Choice number (v to review menu; r,q, or x to return;go to run): enter regularization parameters for 0PSI
+Choice number (v to review menu; r,q, or x to return;go to run): enter CONTOUR file name
+Choice number (v to review menu; r,q, or x to return;go to run): enter MODEL file name
+Choice number (v to review menu; r,q, or x to return;go to run): enter MODEL file name for slowness determinatrion
+Choice number (v to review menu; r,q, or x to return;go to run):Choice number (v to review menu; r,q, or x to return;go to run): enter pole lat and lon 
+Choice number (v to review menu; r,q, or x to return;go to run):Choice number (v to review menu; r,q, or x to return;go to run):Choice number (v to review menu; r,q, or x to return;go to run):tomo >  		TOMO SETTINGS:
+ DATA   CHARACTERISTICS:
+   0.) Model are given?..................(toggle)...           1
+   1.) Weights are given?................(toggle)...           1
+   2.) Number of paths < ...........................     1300000
+   3.) Selection of paths ...............(toggle)...           0
+ PLOT CHARACTERISTICS:
+  4.) Path density & azim. coverage ?...(toggle)...           0
+  5.) Limits of the map (latitudes,step) ............     23.00   29.50    0.40
+  6.) Limits of the map (longitudes,step) ...........     98.00  107.00    0.40
+  7.) Map of deviations in %?...........(toggle)...           1
+  8.) Rejecting too strange data?.......(toggle)...           1
+  9.) Rejecting data by wavelength?.....(toggle)...           1
+ 10.) Step,X-zone,R/L,G/P,Size of cells:iso,anis.....   0.025 2.000 R P  0.400 0.400
+ 11.) anisotropy: 0-no,1-2psi,2-2&4psi,3-4psi......           0
+ 12.) 0PSI: alpha1, alpha2, sigma1, sigma2...........  1000.000  0.100  500.000  500.000
+ 13.) 2PSI: alpha1,         sigma1, sigma2...........   800.000         500.000  500.000
+ 14.) 4PSI: alpha1,         sigma1, sigma2...........  1200.000         500.000  500.000
+ 15.) 0PSI-prec, 2PSI-prec, 2&4PSI prec..............       8.0     8.0     8.0
+ 16.) Contour file name..............................  contour.ctr                                                                                                                                                     
+ 17.) Model file name................................  init.mod                                                                                                                                                        
+ 18.) Model name file for slowness determination ....  PREM.MODEL                                                                                                                                                      
+ 19.) Output residuals?.................(toggle)...           1
+ 20.) Covariance matrix?................(toggle)...           0
+ 21.) Apply geogr --> geoc for input....(toggle)...           1
+ 22.) Apply geoc --> geogr for output...(toggle)...           1
+ 23.) Anisotropy pole: lat, lon......................      0.00    0.00
+ 24.) Apply Fresnel zones?..............(toggle)...           0
+ 25.) Produce resolution analysis map?..(toggle)...           1
+ 26.) Use new input data format R1/R2?..(toggle)...           1
+ 27.) Use RAY TRACER mode?..............(toggle)...           0
+ 28.) Make response map for some points?(toggle)...           0
+ 29.) Path density wts for iso and aniso parts..... -0.147129998     -0.147129998    
+tomo >   
+Protocol: tomo_sp_cu_s, v1.2.2_.1 (Gaussian rays)
+========================================================
+ THERE WERE        3475  PATHS; only         3475  PATHS LEFT
+  REJEDEL: There were        3475  paths; only         3475  paths left after cleaning
+ REJECTOR: Average velocity for input data=   3.23184204      (km/s)
+ REJECTOR: Permitted deviation=   8.92110538      (km/s)
+  REJECTOR: There were        3475  paths; only         3475  paths left after cleaning
+    SQUARE ROOT mean velocity=   3.232 km/sec
+Input      - <Wed May 15 14:25:59 2019> Duration:  0: 0: 0     0
+Isotropic grid cells:
+ Average square of cells is:     0.1604586698 (deg**2)
+ Average length of cells is:     0.4005729269 (deg)
+ Point outside contour: Lat=   0.700 Lon=    0.700  207
+ n_pnt1 =          103
+ Cells:       257096 , nm=         328 , nd+1=         208 , aniz=           0
+Normalization factors: Isotr -  0.19807
+    Number of Paths=   3475
+ R1 traces:        3475  R2 Traces:           0
+ Number of integrals are:         3472
+SQRT of initial residuals dispersion are:     1.856 sec /  145.949/
+SQ_RT of initial velocities dispersion are:   0.02516 km/sec
+Integrals  - <Wed May 15 14:26:02 2019> Duration:  0: 0: 3     3
+ MAXIMUM of asimutal parameter is :    84.9836044    
+Gauss      - <Wed May 15 14:26:03 2019> Duration:  0: 0: 1     1
+ Matrix is done
+ Matrix elements:   505350400  Zero are:           0
+ Total number of matrix lines are        3800
+ Maximum intersections/cell are:    457.733734      R1:   457.733734      R2:   0.00000000    
+ Isotropy   Trace/Size F   1857793.0000
+Inversion  - <Wed May 15 14:26:03 2019> Duration:  0: 0: 0     0
+Matrix condition =    0.291537E-03
+Res_matrix - <Wed May 15 14:26:03 2019> Duration:  0: 0: 0     0
+ Matrix elements=      107584 , Maximal deviation =   4.26349376E-04
+Res_analys - <Wed May 15 14:26:06 2019> Duration:  0: 0: 3     3
+SQRT of final residuals dispersion are:     1.173 sec /    9.539/
+SQ_RT of final velocities dispersion are:   0.01537 km/sec
+Velocities - <Wed May 15 14:26:07 2019> Duration:  0: 0: 1     1
+ convert velocity in % of deviation from average value
+ average velocity  =      3.23536 (km/sec), npoints=    333
+ (R0099) COMPUTATIONS FINISHED

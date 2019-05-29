@@ -1,0 +1,47 @@
+#!/bin/tcsh
+set sig=450
+foreach al (1000)
+foreach f (2000)
+../bin/tomo_sp_cu_s datatest.dat TEST_${f}_${sig}_${al} 10 << EOF
+me
+0
+1
+4
+5
+26 29 0.2
+6
+98 102 0.2
+9
+3
+10
+.025
+2
+R
+G
+0.2
+0.2
+11
+0
+12
+$f
+0
+$sig
+$sig
+16
+contour.ctr
+17
+init.mod
+18
+PREM.MODEL
+19
+23
+0.0 0.0
+25
+26
+x
+v
+go
+EOF
+end
+end
+exit

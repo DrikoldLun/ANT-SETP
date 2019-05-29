@@ -1,0 +1,537 @@
+Protocol: tomo_sp_cu_s, v1.2.2_.1 (Gaussian rays)
+========================================================
+ PERIOD= 5(sec)
+ INFILE=data5.0s.dat
+ OUTFILE=TEST_0.1_200_1000
+ model=   Y 
+ weights=   Y 
+ dens & azimuth maps=N
+ selection= N
+ percent map=Y
+ anisotropy=N 0-psi type
+ rejection by %=Y
+ rejection by dist=Y
+ residuals= Y
+ covariance matrix= N
+ geogr-->geoc= Y
+ geoc-->geogr= Y
+ Fresnel zone= N
+ resolution analysis = Y
+ input data format = Y
+ RAY TRACER mode = N
+ resolution response maps = N
+ Model file name is: init.mod
+ Contour file name is: contour.ctr
+ 0PSI: alpha1, alpha2, sigma1, sigma2 1000.000  0.100  200.000  200.000
+ 0PSI-prec, 2PSI-prec, 4PSI-prec     8.0     8.0     8.0
+ rejection level=   30.0000000      %
+ Limits of latitude:       23.00      29.60  Increment= 0.300 npoints=   23
+ Limits of longitude:      98.00     107.00  Increment= 0.300 npoints=   31
+ Step of integration: 0.0250
+ X-zone: 2.0000
+ Rayleigh/Love: R
+ Group/Phase velocity: G
+ Model for slowness: PREM.MODEL
+ Azimus pole: lat =    0.00, lon =    0.00
+THERE WERE  26923 PATHS; only   26923 PATHS LEFT
+  REJEDEL: Path          112  is rejected: Delta=   54.1691628     ; Threshold=     54.2383041    
+  REJEDEL: Path          147  is rejected: Delta=   40.1826286     ; Threshold=     54.2383041    
+  REJEDEL: Path          411  is rejected: Delta=   29.0198002     ; Threshold=     54.2383041    
+  REJEDEL: Path          416  is rejected: Delta=   46.1739616     ; Threshold=     54.2383041    
+  REJEDEL: Path          702  is rejected: Delta=   48.1781082     ; Threshold=     54.2383041    
+  REJEDEL: Path          726  is rejected: Delta=   39.7985344     ; Threshold=     54.2383041    
+  REJEDEL: Path          873  is rejected: Delta=   51.6317787     ; Threshold=     54.2383041    
+  REJEDEL: Path          968  is rejected: Delta=   39.9494133     ; Threshold=     54.2383041    
+  REJEDEL: Path          994  is rejected: Delta=   24.3503666     ; Threshold=     54.2383041    
+  REJEDEL: Path          996  is rejected: Delta=   50.1846657     ; Threshold=     54.2383041    
+  REJEDEL: Path         1002  is rejected: Delta=   53.8139725     ; Threshold=     54.2383041    
+  REJEDEL: Path         1217  is rejected: Delta=   52.7521858     ; Threshold=     54.2383041    
+  REJEDEL: Path         1232  is rejected: Delta=   26.7159958     ; Threshold=     54.2383041    
+  REJEDEL: Path         1346  is rejected: Delta=   40.8109131     ; Threshold=     54.2383041    
+  REJEDEL: Path         1382  is rejected: Delta=   39.6874466     ; Threshold=     54.2383041    
+  REJEDEL: Path         1424  is rejected: Delta=   50.0514946     ; Threshold=     54.2383041    
+  REJEDEL: Path         1440  is rejected: Delta=   28.1960583     ; Threshold=     54.2383041    
+  REJEDEL: Path         1485  is rejected: Delta=   29.9776344     ; Threshold=     54.2383041    
+  REJEDEL: Path         1647  is rejected: Delta=   39.4722862     ; Threshold=     54.2383041    
+  REJEDEL: Path         1908  is rejected: Delta=   40.2236633     ; Threshold=     54.2383041    
+  REJEDEL: Path         1952  is rejected: Delta=   49.9050674     ; Threshold=     54.2383041    
+  REJEDEL: Path         1987  is rejected: Delta=   40.2920036     ; Threshold=     54.2383041    
+  REJEDEL: Path         2201  is rejected: Delta=   51.2438583     ; Threshold=     54.2383041    
+  REJEDEL: Path         2361  is rejected: Delta=   43.0080833     ; Threshold=     54.2383041    
+  REJEDEL: Path         2382  is rejected: Delta=   47.7905083     ; Threshold=     54.2383041    
+  REJEDEL: Path         2420  is rejected: Delta=   42.2373276     ; Threshold=     54.2383041    
+  REJEDEL: Path         2451  is rejected: Delta=   33.6002808     ; Threshold=     54.2383041    
+  REJEDEL: Path         2537  is rejected: Delta=   43.0539703     ; Threshold=     54.2383041    
+  REJEDEL: Path         2551  is rejected: Delta=   53.7763824     ; Threshold=     54.2383041    
+  REJEDEL: Path         2682  is rejected: Delta=   31.0166054     ; Threshold=     54.2383041    
+  REJEDEL: Path         2717  is rejected: Delta=   53.2540359     ; Threshold=     54.2383041    
+  REJEDEL: Path         2765  is rejected: Delta=   43.0484123     ; Threshold=     54.2383041    
+  REJEDEL: Path         2875  is rejected: Delta=   31.3557796     ; Threshold=     54.2383041    
+  REJEDEL: Path         2919  is rejected: Delta=   51.8221436     ; Threshold=     54.2383041    
+  REJEDEL: Path         2922  is rejected: Delta=   50.5297127     ; Threshold=     54.2383041    
+  REJEDEL: Path         3167  is rejected: Delta=   43.4193001     ; Threshold=     54.2383041    
+  REJEDEL: Path         3237  is rejected: Delta=   46.7714806     ; Threshold=     54.2383041    
+  REJEDEL: Path         3435  is rejected: Delta=   28.2079144     ; Threshold=     54.2383041    
+  REJEDEL: Path         3446  is rejected: Delta=   34.6070824     ; Threshold=     54.2383041    
+  REJEDEL: Path         3574  is rejected: Delta=   38.7583504     ; Threshold=     54.2383041    
+  REJEDEL: Path         3683  is rejected: Delta=   31.2964687     ; Threshold=     54.2383041    
+  REJEDEL: Path         3688  is rejected: Delta=   33.4992027     ; Threshold=     54.2383041    
+  REJEDEL: Path         3695  is rejected: Delta=   38.5099487     ; Threshold=     54.2383041    
+  REJEDEL: Path         3841  is rejected: Delta=   49.8397408     ; Threshold=     54.2383041    
+  REJEDEL: Path         3849  is rejected: Delta=   26.7480812     ; Threshold=     54.2383041    
+  REJEDEL: Path         3902  is rejected: Delta=   53.6952209     ; Threshold=     54.2383041    
+  REJEDEL: Path         3959  is rejected: Delta=   49.5976257     ; Threshold=     54.2383041    
+  REJEDEL: Path         4015  is rejected: Delta=   53.7728081     ; Threshold=     54.2383041    
+  REJEDEL: Path         4027  is rejected: Delta=   52.6159973     ; Threshold=     54.2383041    
+  REJEDEL: Path         4030  is rejected: Delta=   28.8140812     ; Threshold=     54.2383041    
+  REJEDEL: Path         4051  is rejected: Delta=   45.4674149     ; Threshold=     54.2383041    
+  REJEDEL: Path         4056  is rejected: Delta=   40.7206192     ; Threshold=     54.2383041    
+  REJEDEL: Path         4130  is rejected: Delta=   35.0399704     ; Threshold=     54.2383041    
+  REJEDEL: Path         4152  is rejected: Delta=   48.1604500     ; Threshold=     54.2383041    
+  REJEDEL: Path         4193  is rejected: Delta=   37.8456001     ; Threshold=     54.2383041    
+  REJEDEL: Path         4263  is rejected: Delta=   43.3521843     ; Threshold=     54.2383041    
+  REJEDEL: Path         4308  is rejected: Delta=   44.9850616     ; Threshold=     54.2383041    
+  REJEDEL: Path         4325  is rejected: Delta=   36.6700363     ; Threshold=     54.2383041    
+  REJEDEL: Path         4423  is rejected: Delta=   36.0594673     ; Threshold=     54.2383041    
+  REJEDEL: Path         4436  is rejected: Delta=   46.0453110     ; Threshold=     54.2383041    
+  REJEDEL: Path         4500  is rejected: Delta=   33.0915337     ; Threshold=     54.2383041    
+  REJEDEL: Path         4518  is rejected: Delta=   37.3520775     ; Threshold=     54.2383041    
+  REJEDEL: Path         4528  is rejected: Delta=   43.6227951     ; Threshold=     54.2383041    
+  REJEDEL: Path         4694  is rejected: Delta=   34.7836494     ; Threshold=     54.2383041    
+  REJEDEL: Path         4843  is rejected: Delta=   40.3939629     ; Threshold=     54.2383041    
+  REJEDEL: Path         4865  is rejected: Delta=   29.9625092     ; Threshold=     54.2383041    
+  REJEDEL: Path         4891  is rejected: Delta=   49.5739670     ; Threshold=     54.2383041    
+  REJEDEL: Path         5177  is rejected: Delta=   30.1869087     ; Threshold=     54.2383041    
+  REJEDEL: Path         5238  is rejected: Delta=   29.8033829     ; Threshold=     54.2383041    
+  REJEDEL: Path         5386  is rejected: Delta=   43.8971519     ; Threshold=     54.2383041    
+  REJEDEL: Path         5392  is rejected: Delta=   26.6261082     ; Threshold=     54.2383041    
+  REJEDEL: Path         5606  is rejected: Delta=   46.1452332     ; Threshold=     54.2383041    
+  REJEDEL: Path         5635  is rejected: Delta=   45.3588867     ; Threshold=     54.2383041    
+  REJEDEL: Path         5666  is rejected: Delta=   31.4502220     ; Threshold=     54.2383041    
+  REJEDEL: Path         5695  is rejected: Delta=   45.2157555     ; Threshold=     54.2383041    
+  REJEDEL: Path         5741  is rejected: Delta=   48.2430458     ; Threshold=     54.2383041    
+  REJEDEL: Path         5814  is rejected: Delta=   48.7721405     ; Threshold=     54.2383041    
+  REJEDEL: Path         5986  is rejected: Delta=   21.0030441     ; Threshold=     54.2383041    
+  REJEDEL: Path         6312  is rejected: Delta=   44.2131500     ; Threshold=     54.2383041    
+  REJEDEL: Path         6328  is rejected: Delta=   41.2046928     ; Threshold=     54.2383041    
+  REJEDEL: Path         6652  is rejected: Delta=   45.0277939     ; Threshold=     54.2383041    
+  REJEDEL: Path         6690  is rejected: Delta=   34.1925278     ; Threshold=     54.2383041    
+  REJEDEL: Path         6785  is rejected: Delta=   37.6918793     ; Threshold=     54.2383041    
+  REJEDEL: Path         6799  is rejected: Delta=   51.2527733     ; Threshold=     54.2383041    
+  REJEDEL: Path         6915  is rejected: Delta=   43.1282959     ; Threshold=     54.2383041    
+  REJEDEL: Path         6918  is rejected: Delta=   47.9582520     ; Threshold=     54.2383041    
+  REJEDEL: Path         7074  is rejected: Delta=   44.1225891     ; Threshold=     54.2383041    
+  REJEDEL: Path         7140  is rejected: Delta=   30.8927307     ; Threshold=     54.2383041    
+  REJEDEL: Path         7149  is rejected: Delta=   31.6997223     ; Threshold=     54.2383041    
+  REJEDEL: Path         7297  is rejected: Delta=   50.6793404     ; Threshold=     54.2383041    
+  REJEDEL: Path         7313  is rejected: Delta=   41.9726143     ; Threshold=     54.2383041    
+  REJEDEL: Path         7507  is rejected: Delta=   52.4255028     ; Threshold=     54.2383041    
+  REJEDEL: Path         7672  is rejected: Delta=   42.1565590     ; Threshold=     54.2383041    
+  REJEDEL: Path         7748  is rejected: Delta=   38.4844360     ; Threshold=     54.2383041    
+  REJEDEL: Path         8021  is rejected: Delta=   27.8991833     ; Threshold=     54.2383041    
+  REJEDEL: Path         8054  is rejected: Delta=   49.4287834     ; Threshold=     54.2383041    
+  REJEDEL: Path         8256  is rejected: Delta=   24.5372581     ; Threshold=     54.2383041    
+  REJEDEL: Path         8347  is rejected: Delta=   49.2129669     ; Threshold=     54.2383041    
+  REJEDEL: Path         8360  is rejected: Delta=   42.2053452     ; Threshold=     54.2383041    
+  REJEDEL: Path         8457  is rejected: Delta=   42.4608154     ; Threshold=     54.2383041    
+  REJEDEL: Path         8512  is rejected: Delta=   25.1970253     ; Threshold=     54.2383041    
+  REJEDEL: Path         8519  is rejected: Delta=   41.4384041     ; Threshold=     54.2383041    
+  REJEDEL: Path         8551  is rejected: Delta=   44.7333031     ; Threshold=     54.2383041    
+  REJEDEL: Path         8586  is rejected: Delta=   52.6242943     ; Threshold=     54.2383041    
+  REJEDEL: Path         8680  is rejected: Delta=   46.7361641     ; Threshold=     54.2383041    
+  REJEDEL: Path         8742  is rejected: Delta=   50.8086624     ; Threshold=     54.2383041    
+  REJEDEL: Path         8875  is rejected: Delta=   27.8032665     ; Threshold=     54.2383041    
+  REJEDEL: Path         8885  is rejected: Delta=   52.3876266     ; Threshold=     54.2383041    
+  REJEDEL: Path         8931  is rejected: Delta=   46.5790520     ; Threshold=     54.2383041    
+  REJEDEL: Path         8945  is rejected: Delta=   35.9804916     ; Threshold=     54.2383041    
+  REJEDEL: Path         9031  is rejected: Delta=   50.2177582     ; Threshold=     54.2383041    
+  REJEDEL: Path         9094  is rejected: Delta=   43.7117538     ; Threshold=     54.2383041    
+  REJEDEL: Path         9179  is rejected: Delta=   38.0091553     ; Threshold=     54.2383041    
+  REJEDEL: Path         9195  is rejected: Delta=   36.9993439     ; Threshold=     54.2383041    
+  REJEDEL: Path         9328  is rejected: Delta=   35.9465675     ; Threshold=     54.2383041    
+  REJEDEL: Path         9363  is rejected: Delta=   51.9578209     ; Threshold=     54.2383041    
+  REJEDEL: Path         9393  is rejected: Delta=   39.4469299     ; Threshold=     54.2383041    
+  REJEDEL: Path         9442  is rejected: Delta=   48.3378029     ; Threshold=     54.2383041    
+  REJEDEL: Path         9505  is rejected: Delta=   34.0046692     ; Threshold=     54.2383041    
+  REJEDEL: Path         9571  is rejected: Delta=   42.5895195     ; Threshold=     54.2383041    
+  REJEDEL: Path         9590  is rejected: Delta=   24.1415730     ; Threshold=     54.2383041    
+  REJEDEL: Path         9619  is rejected: Delta=   40.3295631     ; Threshold=     54.2383041    
+  REJEDEL: Path         9620  is rejected: Delta=   42.8478661     ; Threshold=     54.2383041    
+  REJEDEL: Path         9834  is rejected: Delta=   30.2630177     ; Threshold=     54.2383041    
+  REJEDEL: Path         9924  is rejected: Delta=   43.5747719     ; Threshold=     54.2383041    
+  REJEDEL: Path        10023  is rejected: Delta=   40.0107002     ; Threshold=     54.2383041    
+  REJEDEL: Path        10115  is rejected: Delta=   53.0742874     ; Threshold=     54.2383041    
+  REJEDEL: Path        10233  is rejected: Delta=   27.4469719     ; Threshold=     54.2383041    
+  REJEDEL: Path        10349  is rejected: Delta=   51.2545547     ; Threshold=     54.2383041    
+  REJEDEL: Path        10466  is rejected: Delta=   53.8479729     ; Threshold=     54.2383041    
+  REJEDEL: Path        10555  is rejected: Delta=   51.3850975     ; Threshold=     54.2383041    
+  REJEDEL: Path        10593  is rejected: Delta=   35.7644081     ; Threshold=     54.2383041    
+  REJEDEL: Path        10670  is rejected: Delta=   29.9657536     ; Threshold=     54.2383041    
+  REJEDEL: Path        10677  is rejected: Delta=   28.9337025     ; Threshold=     54.2383041    
+  REJEDEL: Path        10685  is rejected: Delta=   38.9423714     ; Threshold=     54.2383041    
+  REJEDEL: Path        10747  is rejected: Delta=   50.4042282     ; Threshold=     54.2383041    
+  REJEDEL: Path        10821  is rejected: Delta=   33.2351952     ; Threshold=     54.2383041    
+  REJEDEL: Path        10840  is rejected: Delta=   34.1697426     ; Threshold=     54.2383041    
+  REJEDEL: Path        10929  is rejected: Delta=   44.3581009     ; Threshold=     54.2383041    
+  REJEDEL: Path        11118  is rejected: Delta=   53.3168716     ; Threshold=     54.2383041    
+  REJEDEL: Path        11194  is rejected: Delta=   32.6827927     ; Threshold=     54.2383041    
+  REJEDEL: Path        11248  is rejected: Delta=   32.9601212     ; Threshold=     54.2383041    
+  REJEDEL: Path        11271  is rejected: Delta=   51.6618347     ; Threshold=     54.2383041    
+  REJEDEL: Path        11402  is rejected: Delta=   36.4451866     ; Threshold=     54.2383041    
+  REJEDEL: Path        11498  is rejected: Delta=   53.1779633     ; Threshold=     54.2383041    
+  REJEDEL: Path        11505  is rejected: Delta=   40.1477699     ; Threshold=     54.2383041    
+  REJEDEL: Path        11968  is rejected: Delta=   35.9195938     ; Threshold=     54.2383041    
+  REJEDEL: Path        12072  is rejected: Delta=   47.5088348     ; Threshold=     54.2383041    
+  REJEDEL: Path        12107  is rejected: Delta=   40.7822456     ; Threshold=     54.2383041    
+  REJEDEL: Path        12109  is rejected: Delta=   20.5578709     ; Threshold=     54.2383041    
+  REJEDEL: Path        12140  is rejected: Delta=   51.6420364     ; Threshold=     54.2383041    
+  REJEDEL: Path        12149  is rejected: Delta=   49.7326355     ; Threshold=     54.2383041    
+  REJEDEL: Path        12175  is rejected: Delta=   46.6586685     ; Threshold=     54.2383041    
+  REJEDEL: Path        12294  is rejected: Delta=   41.4881134     ; Threshold=     54.2383041    
+  REJEDEL: Path        12489  is rejected: Delta=   50.3826332     ; Threshold=     54.2383041    
+  REJEDEL: Path        12512  is rejected: Delta=   53.6099014     ; Threshold=     54.2383041    
+  REJEDEL: Path        12551  is rejected: Delta=   41.0387230     ; Threshold=     54.2383041    
+  REJEDEL: Path        12760  is rejected: Delta=   44.5674400     ; Threshold=     54.2383041    
+  REJEDEL: Path        12764  is rejected: Delta=   35.2889023     ; Threshold=     54.2383041    
+  REJEDEL: Path        12765  is rejected: Delta=   43.5180855     ; Threshold=     54.2383041    
+  REJEDEL: Path        12768  is rejected: Delta=   31.4653893     ; Threshold=     54.2383041    
+  REJEDEL: Path        12981  is rejected: Delta=   42.2099495     ; Threshold=     54.2383041    
+  REJEDEL: Path        13112  is rejected: Delta=   53.2147636     ; Threshold=     54.2383041    
+  REJEDEL: Path        13178  is rejected: Delta=   29.8790169     ; Threshold=     54.2383041    
+  REJEDEL: Path        13248  is rejected: Delta=   40.0405121     ; Threshold=     54.2383041    
+  REJEDEL: Path        13271  is rejected: Delta=   48.4069672     ; Threshold=     54.2383041    
+  REJEDEL: Path        13341  is rejected: Delta=   22.3377972     ; Threshold=     54.2383041    
+  REJEDEL: Path        13353  is rejected: Delta=   53.0180550     ; Threshold=     54.2383041    
+  REJEDEL: Path        13503  is rejected: Delta=   39.2665596     ; Threshold=     54.2383041    
+  REJEDEL: Path        13544  is rejected: Delta=   53.7877693     ; Threshold=     54.2383041    
+  REJEDEL: Path        13568  is rejected: Delta=   32.2726517     ; Threshold=     54.2383041    
+  REJEDEL: Path        13619  is rejected: Delta=   34.2192535     ; Threshold=     54.2383041    
+  REJEDEL: Path        13649  is rejected: Delta=   29.1647148     ; Threshold=     54.2383041    
+  REJEDEL: Path        13690  is rejected: Delta=   46.9169884     ; Threshold=     54.2383041    
+  REJEDEL: Path        13737  is rejected: Delta=   49.3545532     ; Threshold=     54.2383041    
+  REJEDEL: Path        13855  is rejected: Delta=   52.0139694     ; Threshold=     54.2383041    
+  REJEDEL: Path        14132  is rejected: Delta=   32.8722115     ; Threshold=     54.2383041    
+  REJEDEL: Path        14168  is rejected: Delta=   43.0482864     ; Threshold=     54.2383041    
+  REJEDEL: Path        14336  is rejected: Delta=   34.4660225     ; Threshold=     54.2383041    
+  REJEDEL: Path        14417  is rejected: Delta=   43.2390327     ; Threshold=     54.2383041    
+  REJEDEL: Path        14437  is rejected: Delta=   39.5341721     ; Threshold=     54.2383041    
+  REJEDEL: Path        14450  is rejected: Delta=   49.5093155     ; Threshold=     54.2383041    
+  REJEDEL: Path        14544  is rejected: Delta=   40.3947105     ; Threshold=     54.2383041    
+  REJEDEL: Path        14641  is rejected: Delta=   48.4214172     ; Threshold=     54.2383041    
+  REJEDEL: Path        14716  is rejected: Delta=   47.5433578     ; Threshold=     54.2383041    
+  REJEDEL: Path        14740  is rejected: Delta=   41.4714851     ; Threshold=     54.2383041    
+  REJEDEL: Path        14775  is rejected: Delta=   48.7902031     ; Threshold=     54.2383041    
+  REJEDEL: Path        14838  is rejected: Delta=   43.2750740     ; Threshold=     54.2383041    
+  REJEDEL: Path        14891  is rejected: Delta=   51.4020271     ; Threshold=     54.2383041    
+  REJEDEL: Path        14919  is rejected: Delta=   47.9261894     ; Threshold=     54.2383041    
+  REJEDEL: Path        15147  is rejected: Delta=   42.2954102     ; Threshold=     54.2383041    
+  REJEDEL: Path        15161  is rejected: Delta=   51.0446396     ; Threshold=     54.2383041    
+  REJEDEL: Path        15271  is rejected: Delta=   35.4157181     ; Threshold=     54.2383041    
+  REJEDEL: Path        15348  is rejected: Delta=   34.0815620     ; Threshold=     54.2383041    
+  REJEDEL: Path        15462  is rejected: Delta=   47.1466713     ; Threshold=     54.2383041    
+  REJEDEL: Path        15496  is rejected: Delta=   36.2703857     ; Threshold=     54.2383041    
+  REJEDEL: Path        15533  is rejected: Delta=   39.8758507     ; Threshold=     54.2383041    
+  REJEDEL: Path        15536  is rejected: Delta=   25.2449627     ; Threshold=     54.2383041    
+  REJEDEL: Path        15558  is rejected: Delta=   40.7051468     ; Threshold=     54.2383041    
+  REJEDEL: Path        15574  is rejected: Delta=   37.1652985     ; Threshold=     54.2383041    
+  REJEDEL: Path        15657  is rejected: Delta=   36.9325600     ; Threshold=     54.2383041    
+  REJEDEL: Path        15661  is rejected: Delta=   36.4143333     ; Threshold=     54.2383041    
+  REJEDEL: Path        15749  is rejected: Delta=   26.7846985     ; Threshold=     54.2383041    
+  REJEDEL: Path        15757  is rejected: Delta=   37.3791161     ; Threshold=     54.2383041    
+  REJEDEL: Path        15829  is rejected: Delta=   32.3073311     ; Threshold=     54.2383041    
+  REJEDEL: Path        16076  is rejected: Delta=   24.6254101     ; Threshold=     54.2383041    
+  REJEDEL: Path        16216  is rejected: Delta=   41.3280869     ; Threshold=     54.2383041    
+  REJEDEL: Path        16253  is rejected: Delta=   46.1353569     ; Threshold=     54.2383041    
+  REJEDEL: Path        16317  is rejected: Delta=   29.5959892     ; Threshold=     54.2383041    
+  REJEDEL: Path        16461  is rejected: Delta=   52.6269112     ; Threshold=     54.2383041    
+  REJEDEL: Path        16474  is rejected: Delta=   52.6872559     ; Threshold=     54.2383041    
+  REJEDEL: Path        16568  is rejected: Delta=   54.2008247     ; Threshold=     54.2383041    
+  REJEDEL: Path        16682  is rejected: Delta=   28.0144501     ; Threshold=     54.2383041    
+  REJEDEL: Path        16697  is rejected: Delta=   29.7697964     ; Threshold=     54.2383041    
+  REJEDEL: Path        16796  is rejected: Delta=   46.0539284     ; Threshold=     54.2383041    
+  REJEDEL: Path        16833  is rejected: Delta=   38.9183044     ; Threshold=     54.2383041    
+  REJEDEL: Path        16893  is rejected: Delta=   40.3869896     ; Threshold=     54.2383041    
+  REJEDEL: Path        16913  is rejected: Delta=   52.8832893     ; Threshold=     54.2383041    
+  REJEDEL: Path        17223  is rejected: Delta=   31.1039886     ; Threshold=     54.2383041    
+  REJEDEL: Path        17247  is rejected: Delta=   52.7153244     ; Threshold=     54.2383041    
+  REJEDEL: Path        17338  is rejected: Delta=   52.1649818     ; Threshold=     54.2383041    
+  REJEDEL: Path        17551  is rejected: Delta=   48.9681625     ; Threshold=     54.2383041    
+  REJEDEL: Path        17604  is rejected: Delta=   33.4111786     ; Threshold=     54.2383041    
+  REJEDEL: Path        17739  is rejected: Delta=   44.6475639     ; Threshold=     54.2383041    
+  REJEDEL: Path        17769  is rejected: Delta=   34.6766510     ; Threshold=     54.2383041    
+  REJEDEL: Path        17793  is rejected: Delta=   37.2618294     ; Threshold=     54.2383041    
+  REJEDEL: Path        17880  is rejected: Delta=   42.6395645     ; Threshold=     54.2383041    
+  REJEDEL: Path        17922  is rejected: Delta=   41.6245384     ; Threshold=     54.2383041    
+  REJEDEL: Path        17933  is rejected: Delta=   32.4717026     ; Threshold=     54.2383041    
+  REJEDEL: Path        17948  is rejected: Delta=   42.2275009     ; Threshold=     54.2383041    
+  REJEDEL: Path        17976  is rejected: Delta=   46.1022110     ; Threshold=     54.2383041    
+  REJEDEL: Path        18154  is rejected: Delta=   48.2708015     ; Threshold=     54.2383041    
+  REJEDEL: Path        18278  is rejected: Delta=   53.0657501     ; Threshold=     54.2383041    
+  REJEDEL: Path        18330  is rejected: Delta=   30.3117085     ; Threshold=     54.2383041    
+  REJEDEL: Path        18356  is rejected: Delta=   46.6652565     ; Threshold=     54.2383041    
+  REJEDEL: Path        18381  is rejected: Delta=   47.4110565     ; Threshold=     54.2383041    
+  REJEDEL: Path        18450  is rejected: Delta=   48.1239166     ; Threshold=     54.2383041    
+  REJEDEL: Path        18496  is rejected: Delta=   48.6552620     ; Threshold=     54.2383041    
+  REJEDEL: Path        18510  is rejected: Delta=   48.3675346     ; Threshold=     54.2383041    
+  REJEDEL: Path        18597  is rejected: Delta=   28.8906498     ; Threshold=     54.2383041    
+  REJEDEL: Path        18741  is rejected: Delta=   38.5627899     ; Threshold=     54.2383041    
+  REJEDEL: Path        18839  is rejected: Delta=   26.8170433     ; Threshold=     54.2383041    
+  REJEDEL: Path        19144  is rejected: Delta=   30.0619431     ; Threshold=     54.2383041    
+  REJEDEL: Path        19188  is rejected: Delta=   40.6126022     ; Threshold=     54.2383041    
+  REJEDEL: Path        19201  is rejected: Delta=   50.2779541     ; Threshold=     54.2383041    
+  REJEDEL: Path        19304  is rejected: Delta=   23.2044582     ; Threshold=     54.2383041    
+  REJEDEL: Path        19339  is rejected: Delta=   50.3541412     ; Threshold=     54.2383041    
+  REJEDEL: Path        19393  is rejected: Delta=   51.3126526     ; Threshold=     54.2383041    
+  REJEDEL: Path        19499  is rejected: Delta=   53.8974457     ; Threshold=     54.2383041    
+  REJEDEL: Path        19774  is rejected: Delta=   46.0743179     ; Threshold=     54.2383041    
+  REJEDEL: Path        19861  is rejected: Delta=   46.2919006     ; Threshold=     54.2383041    
+  REJEDEL: Path        19894  is rejected: Delta=   36.2091255     ; Threshold=     54.2383041    
+  REJEDEL: Path        19935  is rejected: Delta=   29.6659851     ; Threshold=     54.2383041    
+  REJEDEL: Path        20053  is rejected: Delta=   47.2658310     ; Threshold=     54.2383041    
+  REJEDEL: Path        20139  is rejected: Delta=   33.9537430     ; Threshold=     54.2383041    
+  REJEDEL: Path        20196  is rejected: Delta=   28.4475708     ; Threshold=     54.2383041    
+  REJEDEL: Path        20377  is rejected: Delta=   49.6760521     ; Threshold=     54.2383041    
+  REJEDEL: Path        20481  is rejected: Delta=   41.3825760     ; Threshold=     54.2383041    
+  REJEDEL: Path        20537  is rejected: Delta=   45.1629677     ; Threshold=     54.2383041    
+  REJEDEL: Path        20588  is rejected: Delta=   45.9208488     ; Threshold=     54.2383041    
+  REJEDEL: Path        20591  is rejected: Delta=   50.6536446     ; Threshold=     54.2383041    
+  REJEDEL: Path        20597  is rejected: Delta=   28.6918354     ; Threshold=     54.2383041    
+  REJEDEL: Path        20629  is rejected: Delta=   44.1874313     ; Threshold=     54.2383041    
+  REJEDEL: Path        20706  is rejected: Delta=   45.5610161     ; Threshold=     54.2383041    
+  REJEDEL: Path        20781  is rejected: Delta=   53.9300766     ; Threshold=     54.2383041    
+  REJEDEL: Path        20967  is rejected: Delta=   32.3713913     ; Threshold=     54.2383041    
+  REJEDEL: Path        20990  is rejected: Delta=   49.7366447     ; Threshold=     54.2383041    
+  REJEDEL: Path        21042  is rejected: Delta=   46.9301949     ; Threshold=     54.2383041    
+  REJEDEL: Path        21071  is rejected: Delta=   47.2006226     ; Threshold=     54.2383041    
+  REJEDEL: Path        21095  is rejected: Delta=   33.5014114     ; Threshold=     54.2383041    
+  REJEDEL: Path        21172  is rejected: Delta=   53.0134468     ; Threshold=     54.2383041    
+  REJEDEL: Path        21223  is rejected: Delta=   32.0865364     ; Threshold=     54.2383041    
+  REJEDEL: Path        21533  is rejected: Delta=   29.6597939     ; Threshold=     54.2383041    
+  REJEDEL: Path        21604  is rejected: Delta=   47.1490517     ; Threshold=     54.2383041    
+  REJEDEL: Path        21637  is rejected: Delta=   43.8305855     ; Threshold=     54.2383041    
+  REJEDEL: Path        21659  is rejected: Delta=   49.3803596     ; Threshold=     54.2383041    
+  REJEDEL: Path        21688  is rejected: Delta=   47.7328148     ; Threshold=     54.2383041    
+  REJEDEL: Path        21732  is rejected: Delta=   33.8834038     ; Threshold=     54.2383041    
+  REJEDEL: Path        21738  is rejected: Delta=   43.2387619     ; Threshold=     54.2383041    
+  REJEDEL: Path        21751  is rejected: Delta=   50.9573097     ; Threshold=     54.2383041    
+  REJEDEL: Path        21925  is rejected: Delta=   52.2215424     ; Threshold=     54.2383041    
+  REJEDEL: Path        22047  is rejected: Delta=   30.2415657     ; Threshold=     54.2383041    
+  REJEDEL: Path        22070  is rejected: Delta=   32.8775711     ; Threshold=     54.2383041    
+  REJEDEL: Path        22340  is rejected: Delta=   31.8382225     ; Threshold=     54.2383041    
+  REJEDEL: Path        22382  is rejected: Delta=   49.3792191     ; Threshold=     54.2383041    
+  REJEDEL: Path        22434  is rejected: Delta=   35.7208214     ; Threshold=     54.2383041    
+  REJEDEL: Path        22467  is rejected: Delta=   41.5440331     ; Threshold=     54.2383041    
+  REJEDEL: Path        22489  is rejected: Delta=   43.0260735     ; Threshold=     54.2383041    
+  REJEDEL: Path        22531  is rejected: Delta=   40.3874092     ; Threshold=     54.2383041    
+  REJEDEL: Path        22579  is rejected: Delta=   38.4472389     ; Threshold=     54.2383041    
+  REJEDEL: Path        22670  is rejected: Delta=   45.4766121     ; Threshold=     54.2383041    
+  REJEDEL: Path        22720  is rejected: Delta=   44.2035789     ; Threshold=     54.2383041    
+  REJEDEL: Path        22810  is rejected: Delta=   44.6467552     ; Threshold=     54.2383041    
+  REJEDEL: Path        22815  is rejected: Delta=   32.6483536     ; Threshold=     54.2383041    
+  REJEDEL: Path        22913  is rejected: Delta=   33.8393402     ; Threshold=     54.2383041    
+  REJEDEL: Path        23101  is rejected: Delta=   39.9288940     ; Threshold=     54.2383041    
+  REJEDEL: Path        23161  is rejected: Delta=   39.9241104     ; Threshold=     54.2383041    
+  REJEDEL: Path        23218  is rejected: Delta=   51.3479614     ; Threshold=     54.2383041    
+  REJEDEL: Path        23277  is rejected: Delta=   25.0434189     ; Threshold=     54.2383041    
+  REJEDEL: Path        23300  is rejected: Delta=   51.3623390     ; Threshold=     54.2383041    
+  REJEDEL: Path        23381  is rejected: Delta=   47.1703720     ; Threshold=     54.2383041    
+  REJEDEL: Path        23654  is rejected: Delta=   46.5832291     ; Threshold=     54.2383041    
+  REJEDEL: Path        23710  is rejected: Delta=   35.2759094     ; Threshold=     54.2383041    
+  REJEDEL: Path        23956  is rejected: Delta=   44.7748680     ; Threshold=     54.2383041    
+  REJEDEL: Path        24003  is rejected: Delta=   27.7053566     ; Threshold=     54.2383041    
+  REJEDEL: Path        24109  is rejected: Delta=   34.8714714     ; Threshold=     54.2383041    
+  REJEDEL: Path        24115  is rejected: Delta=   42.9791603     ; Threshold=     54.2383041    
+  REJEDEL: Path        24123  is rejected: Delta=   42.1010284     ; Threshold=     54.2383041    
+  REJEDEL: Path        24200  is rejected: Delta=   27.5469322     ; Threshold=     54.2383041    
+  REJEDEL: Path        24280  is rejected: Delta=   40.3263512     ; Threshold=     54.2383041    
+  REJEDEL: Path        24441  is rejected: Delta=   44.2445755     ; Threshold=     54.2383041    
+  REJEDEL: Path        24455  is rejected: Delta=   42.4515648     ; Threshold=     54.2383041    
+  REJEDEL: Path        24456  is rejected: Delta=   29.7044201     ; Threshold=     54.2383041    
+  REJEDEL: Path        24580  is rejected: Delta=   25.6754932     ; Threshold=     54.2383041    
+  REJEDEL: Path        24581  is rejected: Delta=   28.7550354     ; Threshold=     54.2383041    
+  REJEDEL: Path        24708  is rejected: Delta=   52.2761421     ; Threshold=     54.2383041    
+  REJEDEL: Path        24716  is rejected: Delta=   47.9471397     ; Threshold=     54.2383041    
+  REJEDEL: Path        24883  is rejected: Delta=   48.6112442     ; Threshold=     54.2383041    
+  REJEDEL: Path        25098  is rejected: Delta=   42.9393272     ; Threshold=     54.2383041    
+  REJEDEL: Path        25109  is rejected: Delta=   20.8389893     ; Threshold=     54.2383041    
+  REJEDEL: Path        25145  is rejected: Delta=   49.5791626     ; Threshold=     54.2383041    
+  REJEDEL: Path        25365  is rejected: Delta=   45.9381294     ; Threshold=     54.2383041    
+  REJEDEL: Path        25726  is rejected: Delta=   37.7843895     ; Threshold=     54.2383041    
+  REJEDEL: Path        25727  is rejected: Delta=   51.6918488     ; Threshold=     54.2383041    
+  REJEDEL: Path        25770  is rejected: Delta=   43.4995155     ; Threshold=     54.2383041    
+  REJEDEL: Path        25782  is rejected: Delta=   24.6027546     ; Threshold=     54.2383041    
+  REJEDEL: Path        25867  is rejected: Delta=   45.6186218     ; Threshold=     54.2383041    
+  REJEDEL: Path        26119  is rejected: Delta=   51.5146103     ; Threshold=     54.2383041    
+  REJEDEL: Path        26158  is rejected: Delta=   51.6837082     ; Threshold=     54.2383041    
+  REJEDEL: Path        26413  is rejected: Delta=   32.3012466     ; Threshold=     54.2383041    
+  REJEDEL: Path        26425  is rejected: Delta=   25.2354298     ; Threshold=     54.2383041    
+  REJEDEL: Path        26474  is rejected: Delta=   53.8715668     ; Threshold=     54.2383041    
+  REJEDEL: Path        26480  is rejected: Delta=   38.7596855     ; Threshold=     54.2383041    
+  REJEDEL: Path        26545  is rejected: Delta=   51.7055092     ; Threshold=     54.2383041    
+  REJEDEL: Path        26750  is rejected: Delta=   25.8084469     ; Threshold=     54.2383041    
+  REJEDEL: There were       26923  paths; only        26588  paths left after cleaning
+  REJECTOR:   Average velocity for input data=   4.08300018      (km/s)
+  REJECTOR: Permitted deviation=   2.21455002      (km/s)
+  REJECTOR: Path            2  is rejected: deviation=  -57.3688507      %; threshold=     54.2383041    
+  REJECTOR: Path          125  is rejected: deviation=  -56.2943344      %; threshold=     54.2383041    
+  REJECTOR: Path          331  is rejected: deviation=  -55.4377556      %; threshold=     54.2383041    
+  REJECTOR: Path          420  is rejected: deviation=  -58.3340416      %; threshold=     54.2383041    
+  REJECTOR: Path          704  is rejected: deviation=  -62.4336891      %; threshold=     54.2383041    
+  REJECTOR: Path          722  is rejected: deviation=  -493.360413      %; threshold=     54.2383041    
+  REJECTOR: Path          888  is rejected: deviation=  -60.0564232      %; threshold=     54.2383041    
+  REJECTOR: Path          991  is rejected: deviation=  -103.412399      %; threshold=     54.2383041    
+  REJECTOR: Path         1186  is rejected: deviation=  -57.3321953      %; threshold=     54.2383041    
+  REJECTOR: Path         1348  is rejected: deviation=  -57.7782516      %; threshold=     54.2383041    
+  REJECTOR: Path         1763  is rejected: deviation=  -76.4287567      %; threshold=     54.2383041    
+  REJECTOR: Path         1789  is rejected: deviation=  -99.9379272      %; threshold=     54.2383041    
+  REJECTOR: Path         2392  is rejected: deviation=  -54.3756828      %; threshold=     54.2383041    
+  REJECTOR: Path         3045  is rejected: deviation=  -57.8520851      %; threshold=     54.2383041    
+  REJECTOR: Path         3803  is rejected: deviation=  -71.1980667      %; threshold=     54.2383041    
+  REJECTOR: Path         4155  is rejected: deviation=  -54.5081253      %; threshold=     54.2383041    
+  REJECTOR: Path         4661  is rejected: deviation=   11372.9697      %; threshold=     54.2383041    
+  REJECTOR: Path         4819  is rejected: deviation=  -55.4156189      %; threshold=     54.2383041    
+  REJECTOR: Path         4856  is rejected: deviation=  -74.9153366      %; threshold=     54.2383041    
+  REJECTOR: Path         5142  is rejected: deviation=  -92.3642654      %; threshold=     54.2383041    
+  REJECTOR: Path         5175  is rejected: deviation=  -58.3815575      %; threshold=     54.2383041    
+  REJECTOR: Path         5192  is rejected: deviation=  -56.7048836      %; threshold=     54.2383041    
+  REJECTOR: Path         5556  is rejected: deviation=   519.173523      %; threshold=     54.2383041    
+  REJECTOR: Path         5635  is rejected: deviation=  -54.3246346      %; threshold=     54.2383041    
+  REJECTOR: Path         5811  is rejected: deviation=  -131.646606      %; threshold=     54.2383041    
+  REJECTOR: Path         5855  is rejected: deviation=  -455.892426      %; threshold=     54.2383041    
+  REJECTOR: Path         5945  is rejected: deviation=  -55.9749489      %; threshold=     54.2383041    
+  REJECTOR: Path         6168  is rejected: deviation=  -320.090607      %; threshold=     54.2383041    
+  REJECTOR: Path         6414  is rejected: deviation=  -61.5523109      %; threshold=     54.2383041    
+  REJECTOR: Path         6634  is rejected: deviation=  -55.8681374      %; threshold=     54.2383041    
+  REJECTOR: Path         6725  is rejected: deviation=  -68.0635834      %; threshold=     54.2383041    
+  REJECTOR: Path         6856  is rejected: deviation=  -54.8069115      %; threshold=     54.2383041    
+  REJECTOR: Path         6906  is rejected: deviation=  -454.183868      %; threshold=     54.2383041    
+  REJECTOR: Path         7350  is rejected: deviation=  -61.7689781      %; threshold=     54.2383041    
+  REJECTOR: Path         7379  is rejected: deviation=  -57.7512016      %; threshold=     54.2383041    
+  REJECTOR: Path         7554  is rejected: deviation=  -92.9261475      %; threshold=     54.2383041    
+  REJECTOR: Path         7765  is rejected: deviation=   1433.58423      %; threshold=     54.2383041    
+  REJECTOR: Path         7863  is rejected: deviation=  -56.3666000      %; threshold=     54.2383041    
+  REJECTOR: Path         7870  is rejected: deviation=  -59.6908455      %; threshold=     54.2383041    
+  REJECTOR: Path         7871  is rejected: deviation=   43387.4219      %; threshold=     54.2383041    
+  REJECTOR: Path         8009  is rejected: deviation=  -129.542130      %; threshold=     54.2383041    
+  REJECTOR: Path         8078  is rejected: deviation=   2284.45776      %; threshold=     54.2383041    
+  REJECTOR: Path         8439  is rejected: deviation=  -59.9829178      %; threshold=     54.2383041    
+  REJECTOR: Path         8507  is rejected: deviation=  -228.028244      %; threshold=     54.2383041    
+  REJECTOR: Path         8680  is rejected: deviation=  -55.0788155      %; threshold=     54.2383041    
+  REJECTOR: Path         8752  is rejected: deviation=   1899.61646      %; threshold=     54.2383041    
+  REJECTOR: Path         8757  is rejected: deviation=  -515.574951      %; threshold=     54.2383041    
+  REJECTOR: Path         8806  is rejected: deviation=  -1371.61194      %; threshold=     54.2383041    
+  REJECTOR: Path         9098  is rejected: deviation=  -54.9963112      %; threshold=     54.2383041    
+  REJECTOR: Path         9153  is rejected: deviation=  -9636.34570      %; threshold=     54.2383041    
+  REJECTOR: Path         9310  is rejected: deviation=  -58.5643883      %; threshold=     54.2383041    
+  REJECTOR: Path         9821  is rejected: deviation=  -711.675415      %; threshold=     54.2383041    
+  REJECTOR: Path         9882  is rejected: deviation=  -61.1451874      %; threshold=     54.2383041    
+  REJECTOR: Path        10175  is rejected: deviation=  -57.9614525      %; threshold=     54.2383041    
+  REJECTOR: Path        10547  is rejected: deviation=   15116.1191      %; threshold=     54.2383041    
+  REJECTOR: Path        10902  is rejected: deviation=  -89.1063004      %; threshold=     54.2383041    
+  REJECTOR: Path        10919  is rejected: deviation=   161.793182      %; threshold=     54.2383041    
+  REJECTOR: Path        11173  is rejected: deviation=  -57.2575912      %; threshold=     54.2383041    
+  REJECTOR: Path        11617  is rejected: deviation=  -107.355118      %; threshold=     54.2383041    
+  REJECTOR: Path        11907  is rejected: deviation=  -83.2283401      %; threshold=     54.2383041    
+  REJECTOR: Path        12168  is rejected: deviation=  -56.4911842      %; threshold=     54.2383041    
+  REJECTOR: Path        12181  is rejected: deviation=   5095.96582      %; threshold=     54.2383041    
+  REJECTOR: Path        12294  is rejected: deviation=  -131.200867      %; threshold=     54.2383041    
+  REJECTOR: Path        12580  is rejected: deviation=  -54.7290192      %; threshold=     54.2383041    
+  REJECTOR: Path        12781  is rejected: deviation=  -58.4687347      %; threshold=     54.2383041    
+  REJECTOR: Path        13061  is rejected: deviation=  -54.4509888      %; threshold=     54.2383041    
+  REJECTOR: Path        13127  is rejected: deviation=  -58.6775169      %; threshold=     54.2383041    
+  REJECTOR: Path        13386  is rejected: deviation=  -352.067413      %; threshold=     54.2383041    
+  REJECTOR: Path        13484  is rejected: deviation=   311827.125      %; threshold=     54.2383041    
+  REJECTOR: Path        13697  is rejected: deviation=   1713.52368      %; threshold=     54.2383041    
+  REJECTOR: Path        14104  is rejected: deviation=  -90.8558884      %; threshold=     54.2383041    
+  REJECTOR: Path        14161  is rejected: deviation=  -58.8168144      %; threshold=     54.2383041    
+  REJECTOR: Path        14295  is rejected: deviation=   399864.000      %; threshold=     54.2383041    
+  REJECTOR: Path        14412  is rejected: deviation=  -56.4196243      %; threshold=     54.2383041    
+  REJECTOR: Path        14500  is rejected: deviation=  -104.348419      %; threshold=     54.2383041    
+  REJECTOR: Path        14511  is rejected: deviation=   2470.69263      %; threshold=     54.2383041    
+  REJECTOR: Path        15006  is rejected: deviation=  -59.1258545      %; threshold=     54.2383041    
+  REJECTOR: Path        15410  is rejected: deviation=  -2146.95996      %; threshold=     54.2383041    
+  REJECTOR: Path        16160  is rejected: deviation=  -133.330917      %; threshold=     54.2383041    
+  REJECTOR: Path        16699  is rejected: deviation=   988.811279      %; threshold=     54.2383041    
+  REJECTOR: Path        16914  is rejected: deviation=  -57.9129448      %; threshold=     54.2383041    
+  REJECTOR: Path        17323  is rejected: deviation=  -76.1495590      %; threshold=     54.2383041    
+  REJECTOR: Path        17496  is rejected: deviation=  -1517.88574      %; threshold=     54.2383041    
+  REJECTOR: Path        17831  is rejected: deviation=  -348.366974      %; threshold=     54.2383041    
+  REJECTOR: Path        18280  is rejected: deviation=  -58.1687393      %; threshold=     54.2383041    
+  REJECTOR: Path        18291  is rejected: deviation=   122.099472      %; threshold=     54.2383041    
+  REJECTOR: Path        18333  is rejected: deviation=  -56.3146706      %; threshold=     54.2383041    
+  REJECTOR: Path        18376  is rejected: deviation=   2309.73779      %; threshold=     54.2383041    
+  REJECTOR: Path        18777  is rejected: deviation=  -56.3938866      %; threshold=     54.2383041    
+  REJECTOR: Path        19107  is rejected: deviation=  -60.6419220      %; threshold=     54.2383041    
+  REJECTOR: Path        19224  is rejected: deviation=  -61.8181458      %; threshold=     54.2383041    
+  REJECTOR: Path        19302  is rejected: deviation=  -54.4573288      %; threshold=     54.2383041    
+  REJECTOR: Path        19363  is rejected: deviation=  -61.5434341      %; threshold=     54.2383041    
+  REJECTOR: Path        19583  is rejected: deviation=  -194.791794      %; threshold=     54.2383041    
+  REJECTOR: Path        19729  is rejected: deviation=  -58.3388557      %; threshold=     54.2383041    
+  REJECTOR: Path        20137  is rejected: deviation=  -54.4432526      %; threshold=     54.2383041    
+  REJECTOR: Path        20317  is rejected: deviation=  -54.8190460      %; threshold=     54.2383041    
+  REJECTOR: Path        20636  is rejected: deviation=  -105.109825      %; threshold=     54.2383041    
+  REJECTOR: Path        20775  is rejected: deviation=  -673.703857      %; threshold=     54.2383041    
+  REJECTOR: Path        21402  is rejected: deviation=  -55.7905846      %; threshold=     54.2383041    
+  REJECTOR: Path        21717  is rejected: deviation=  -60.0897675      %; threshold=     54.2383041    
+  REJECTOR: Path        21781  is rejected: deviation=   550.201538      %; threshold=     54.2383041    
+  REJECTOR: Path        22148  is rejected: deviation=   1580.92761      %; threshold=     54.2383041    
+  REJECTOR: Path        22210  is rejected: deviation=  -363.838348      %; threshold=     54.2383041    
+  REJECTOR: Path        22298  is rejected: deviation=   171.803955      %; threshold=     54.2383041    
+  REJECTOR: Path        22474  is rejected: deviation=  -110.956261      %; threshold=     54.2383041    
+  REJECTOR: Path        22482  is rejected: deviation=   57.3522339      %; threshold=     54.2383041    
+  REJECTOR: Path        22637  is rejected: deviation=  -55.4182777      %; threshold=     54.2383041    
+  REJECTOR: Path        22910  is rejected: deviation=  -60.9748192      %; threshold=     54.2383041    
+  REJECTOR: Path        22941  is rejected: deviation=  -60.2363930      %; threshold=     54.2383041    
+  REJECTOR: Path        22962  is rejected: deviation=  -60.2981453      %; threshold=     54.2383041    
+  REJECTOR: Path        22976  is rejected: deviation=  -899.074341      %; threshold=     54.2383041    
+  REJECTOR: Path        23065  is rejected: deviation=  -57.9338379      %; threshold=     54.2383041    
+  REJECTOR: Path        23096  is rejected: deviation=   57.2400093      %; threshold=     54.2383041    
+  REJECTOR: Path        23230  is rejected: deviation=  -59.0943527      %; threshold=     54.2383041    
+  REJECTOR: Path        23386  is rejected: deviation=  -64.2755432      %; threshold=     54.2383041    
+  REJECTOR: Path        23462  is rejected: deviation=  -57.1105843      %; threshold=     54.2383041    
+  REJECTOR: Path        23908  is rejected: deviation=  -61.1233368      %; threshold=     54.2383041    
+  REJECTOR: Path        24521  is rejected: deviation=  -225.765045      %; threshold=     54.2383041    
+  REJECTOR: Path        24535  is rejected: deviation=  -57.2256927      %; threshold=     54.2383041    
+  REJECTOR: Path        24639  is rejected: deviation=  -62.1102676      %; threshold=     54.2383041    
+  REJECTOR: Path        24668  is rejected: deviation=   123.005272      %; threshold=     54.2383041    
+  REJECTOR: Path        24858  is rejected: deviation=  -152.915222      %; threshold=     54.2383041    
+  REJECTOR: Path        24949  is rejected: deviation=  -55.3570633      %; threshold=     54.2383041    
+  REJECTOR: Path        25082  is rejected: deviation=  -2012.27344      %; threshold=     54.2383041    
+  REJECTOR: Path        25281  is rejected: deviation=  -57.9565773      %; threshold=     54.2383041    
+  REJECTOR: Path        25367  is rejected: deviation=  -112.872719      %; threshold=     54.2383041    
+  REJECTOR: Path        25525  is rejected: deviation=  -86.0816879      %; threshold=     54.2383041    
+  REJECTOR: Path        25734  is rejected: deviation=  -1244.81641      %; threshold=     54.2383041    
+  REJECTOR: Path        26258  is rejected: deviation=  -3507.96045      %; threshold=     54.2383041    
+  REJECTOR: Path        26336  is rejected: deviation=  -59.0228958      %; threshold=     54.2383041    
+  REJECTOR: There were       26588  paths; only        26457  paths left after cleaning
+    SQUARE ROOT mean velocity=   2.843 km/sec
+Input      - <Thu May  9 20:19:35 2019>, Duration:  0: 0: 0     0
+Isotropic grid cells:
+ Average square of cells is:     0.0896074958 (deg**2)
+ Average length of cells is:     0.2993451115 (deg)
+ Point outside contour: Lat=   0.700 Lon=    0.700
+ n_pnt1 =          138
+ Cells:       460376 , nm=         582 , nd+1=         278 , aniz=           0
+Normalization factors: Isotr -  0.14801
+    Number of Paths=  26457
+ R1 traces:       26457  R2 Traces:           0
+ Number of integrals are:        25023
+SQRT of initial residuals dispersion are:    19.824 sec /   19.824/
+SQ_RT of initial velocities dispersion are:   0.38228 km/sec
+Integrals  - <Thu May  9 20:19:46 2019>, Duration:  0: 0:11    11
+  MAXIMUM of asimutal parameter is :    147.336823    
+Gauss      - <Thu May  9 20:19:49 2019>, Duration:  0: 0: 3     3
+ Matrix is done
+ Matrix elements:   505350400  Zero are:           0
+ Total number of matrix lines are       25605
+ Maximum intersections/cell are:    6350.62891      R1:   6350.62891      R2:   0.00000000    
+ Isotropy   Trace/Size F     69735.6562
+Inversion  - <Thu May  9 20:19:49 2019>, Duration:  0: 0: 0     0
+Matrix condition =    0.837871E-02
+Res_matrix - <Thu May  9 20:19:49 2019>, Duration:  0: 0: 0     0
+ Matrix elements=      338724 , Maximal deviation =   6.41819322E-04
+Res_analys - <Thu May  9 20:19:59 2019>, Duration:  0: 0:10    10
+SQRT of final residuals dispersion are:    19.201 sec /   19.201/
+SQ_RT of final velocities dispersion are:   0.37242 km/sec
+Velocities - <Thu May  9 20:20:03 2019>, Duration:  0: 0: 4     4
+ average velocity  =      2.90202 (km/sec), npoints=    600

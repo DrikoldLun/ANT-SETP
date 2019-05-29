@@ -1,0 +1,26 @@
+ Model name: model.wat
+ LAYER             H      P-VEL     S-VEL   DENSITY  
+     1         32.000     6.100     3.550     2.740
+     2          0.000     6.920     4.000     3.300
+ Model name: model.wat
+ LAYER             H      P-VEL     S-VEL   DENSITY  
+     1         32.000     6.100     3.550     2.740
+     2          0.000     6.920     4.000     3.300
+ Searching for    3.09731007      <= c <=    4.00000000    
+ cmin,cmax   3.09731007       4.00000000    
+ Rayleigh Computations
+  Number of layers=           2  Maximum modes=         100
+  NPTS=         256  DT=  0.125000000      CMIN=   3.09731007      nfval=          -1
+  
+ =============================================
+ dc value for RAYLEIGH at the lowest period=  0.25000000000000000     
+  between c(1)=   3.2603263749534293       and
+          c(          34 )=   3.9871266844835889       :
+  mean=   2.2024251803944232E-002
+  max =  0.29002342175871076     
+  min =   1.0501020102746672E-003
+  
+ Model name: model.wat
+ LAYER             H      P-VEL     S-VEL   DENSITY  
+     1         32.000     6.100     3.550     2.740
+     2          0.000     6.920     4.000     3.300

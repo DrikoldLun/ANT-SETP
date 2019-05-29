@@ -1,0 +1,47 @@
+#!/bin/tcsh
+set alpha=${3}
+set lamda=${1}
+set sigma=${2}
+set period=${4}
+../bin/tomo_sp_cu_s cbt_forward_data0.4.dat TEST_${lamda}_${sigma}_${alpha} ${period} << EOF
+me
+0
+1
+5
+23 29.5 0.4
+6
+98 107 0.4
+8
+30
+9
+3
+10
+.025
+2
+R
+P
+0.4
+0.4
+11
+0
+12
+$alpha
+$lamda
+$sigma
+$sigma
+16
+contour.ctr
+17
+init.mod
+18
+PREM.MODEL
+19
+23
+0.0 0.0
+25
+26
+x
+v
+go
+EOF
+exit

@@ -1,0 +1,7 @@
+nohup: 忽略输入
+Qt: XKEYBOARD extension not present on the X server.
+Qt: Could not determine keyboard configuration data from X server, will use hard-coded keymap configuration.
+Qt: Failed to compile a keymap!
+Current XKB configuration data search paths are: 
+/usr/local/pyenv/versions/anaconda2-4.3.1/lib
+Use QT_XKB_CONFIG_ROOT environmental variable to provide an additional search path, add ':' as separator to provide several search paths and/or make sure that XKB configuration data directory contains recent enough contents, to update please see http://cgit.freedesktop.org/xkeyboard-config/ .

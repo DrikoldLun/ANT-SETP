@@ -1,0 +1,9 @@
+#!/bin/tcsh
+# plot AFTAN maps
+./CC_aftan_map ANTdata/stack/X1.53032.01.X1.53121.01.00370/X1.53032.01.X1.53121.01.00370.2011.001.TO.2013.365.N.00516.BHZ.BHZ.Z.Z.stack.sac "Basic AFTAN." \
+ "Phase Match Filtering AFTAN."
+ #./CC_aftan_map ctest/COR_TA.M14A_TA.M17A.SAC "Basic AFTAN." \
+     #"Phase Match Filtering AFTAN."
+ #./CC_aftan_map ftest/COR_TA.M14A_TA.M17A.SAC "Basic AFTAN." \
+     #"Phase Match Filtering AFTAN."
+exit

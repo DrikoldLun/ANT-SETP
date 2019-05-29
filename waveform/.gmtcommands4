@@ -1,0 +1,7 @@
+# GMT common arguments shelf
+-B100:Time(sec):/100:\Distance(km):WSen
+-JX6.5i/6.5i
+-R-500/500/0/980
+-jX6.5i/6.5i
+EOF
+
